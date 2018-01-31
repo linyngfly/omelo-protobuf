@@ -1,7 +1,7 @@
-var protobuf = require('../lib/protobuf');
-var util = require('../lib/util');
+let protobuf = require('../lib/protobuf');
+let util = require('../lib/util');
 
-var protos = require('protos.json');
+let protos = require('protos.json');
 
 protobuf.init({
 	encoderProtos: protos,
@@ -9,15 +9,15 @@ protobuf.init({
 });
 
 describe('encodeTest', function() {
-	for (var route in tc) {
-		var msg = tc[route];
-		var buffer = protobuf.encode(route, msg);
+	for (let route in tc) {
+		let msg = tc[route];
+		let buffer = protobuf.encode(route, msg);
 
 		console.log(msg);
 		console.log(buffer.length);
 		console.log(buffer)
 
-		var decodeMsg = protobuf.decode(route, buffer);
+		let decodeMsg = protobuf.decode(route, buffer);
 
 		console.log(decodeMsg);
 

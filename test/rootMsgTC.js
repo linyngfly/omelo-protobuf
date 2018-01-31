@@ -1,4 +1,4 @@
-var tc = module.exports;
+let tc = module.exports;
 
 tc.onMove = {
     'entityId':14,
