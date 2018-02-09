@@ -3,7 +3,7 @@
   "version": "0.4.0",
   "private": false,
   "deprecated": false,
-  "description": "`omelo-protobuf` is base pomelo, support es6 version",
+  "description": "`omelo-protobuf` is base omelo, support es6 version",
   "engines": {
     "node": "8.9.0"
   },
@@ -31,7 +31,7 @@
   ],
   "keywords": [
     "omelo-protobuf",
-    "pomelo",
+    "omelo",
     "framework",
     "game",
     "web",

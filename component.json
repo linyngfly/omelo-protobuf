@@ -1,8 +1,8 @@
 {
-  "name": "pomelo-protobuf",
-  "description": "pomelo-protobuf",
+  "name": "omelo-protobuf",
+  "description": "omelo-protobuf",
   "keywords": [
-    "pomelo",
+    "omelo",
     "protobuf"
   ],
   "version": "0.2.0",
@@ -10,5 +10,5 @@
   "scripts": [
     "lib/client/protobuf.js"
   ],
-  "repo": "https://github.com/pomelonode/pomelo-protobuf"
+  "repo": "https://github.com/pomelonode/omelo-protobuf"
 }

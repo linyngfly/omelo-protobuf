@@ -36,7 +36,7 @@ tc['area.playerHandler.enterScene'] = {
             items : [
                 {
                     id : 1,
-                    type : 'pomelo'
+                    type : 'omelo'
                 },
                 {
                     id : 2,
