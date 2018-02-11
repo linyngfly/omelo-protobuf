@@ -1,6 +1,6 @@
 {
   "name": "omelo-protobuf",
-  "version": "0.4.0",
+  "version": "0.4.1",
   "private": false,
   "deprecated": false,
   "description": "`omelo-protobuf` is base omelo, support es6 version",
